@@ -20,7 +20,7 @@ Progress made towards implementing a vision-based model for detecting empty and 
 
 ## `port-detector.ipynb`
 * Notebook used to run the sliding window object detection method with the classifier from `port-classifier.ipynb`.
-* The results of the sliding window method did not match the good performance of the classifier. A starting point for future investigation could be to find out why it does not match.
+* The results of the sliding window method did not match the good performance of the classifier. A starting point for future investigation could be to find out why it does not match. My best guess is that the dataset I made in `port-dataset-for-classification.ipynb` is not selecting sample images that help the classifier on full-scale object detection. The model itself should be just fine, considering that it achieved good performance on every dataset I used.
   * Note that when using the current weights for the classifier, the model identifies only background objects. This might seem like an artefact of the sliding window method, but previous versions of the classifier that used different weights were able to identify empty and connected ports.
 * [Kaggle Link](https://www.kaggle.com/code/larsenbier/port-detector)
 
