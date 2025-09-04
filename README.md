@@ -15,6 +15,7 @@ Progress made towards implementing a vision-based model for detecting empty and 
 * This is the notebook used to train the image classifier used in the sliding window method of the `port-detector.ipynb`.
 * The model chosen was a modified version of ResNet18 with 3 output classes.
 * Other implementation details can be found in the notebook.
+* (Kaggle Link)[https://www.kaggle.com/code/larsenbier/port-dataset-for-classification]
 
 ## `port-detector.ipynb`
 * Notebook used to run the sliding window object detection method with the classifier from `port-classifier.ipynb`.
